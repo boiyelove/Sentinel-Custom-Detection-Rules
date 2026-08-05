@@ -2,6 +2,19 @@
 
 Publish high-signal Azure-focused Sentinel detections with reproducible attack simulations and tuning guidance.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions |
+| Services and stack | Sentinel; Log Analytics; KQL; Event Hubs |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 A detection publication request validates tenant scope, evidence freshness, private telemetry assumptions, and approval before a versioned KQL rule is promoted to Sentinel.
