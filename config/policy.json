@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Sentinel-Custom-Detection-Rules",
+  "rank": 19,
+  "action": "plan_sentinel_custom_detection_rules",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
